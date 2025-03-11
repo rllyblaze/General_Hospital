@@ -1,0 +1,323 @@
+
+
+/* ASSIGNEMNT CSS  FOR INDEX HOMEPAGE*/
+
+h1 {
+    width: 600px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px 0px 0px 10px;
+    /* border: 1px solid blue; */
+  }
+  
+  .nav_container,
+  h1,
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .nav_links_wrapper {
+    display: flex;
+    width: 600px;
+    padding-top: 5px;
+    padding-left: -40px;
+    margin: 5px 0px 0px 10px;
+    /* border: 1px solid red; */
+    justify-content: center;
+  
+  }
+  
+  .nav_links_wrapper:first-child {
+    justify-content: left;
+  }
+  
+  .nav_links_wrapper:last-child {
+    justify-content: right;
+  }
+  
+  
+  .nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  }
+  
+  .nav_links ul {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .homepage {
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  h2 {
+    /* border: 1px solid blue; */
+    margin-bottom: 10px;
+  }
+  
+  .heropage_container {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 10px;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  
+  .paragraph_session {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    /* border: 1px solid blue; */
+    display: block;
+  }
+  
+  .paragraph_session button {
+    width: 400px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+  }
+  
+  .pic_session {
+    width: 500px;
+    height: auto;
+  }
+  
+  .pic_session img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  /* Cooking page styling */
+  
+  .cooking {
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+  }
+  
+  /* h3 {
+    text-align: center;
+        padding: 20px;
+        background-color: #ff6347; */
+  /* color: white;
+        font-size: 24px;
+    } */
+  
+  /* .recipe {
+    background: white;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    } */
+  
+  /* h2 {
+    color: #ff6347;
+    } */
+  
+  ul {
+    padding-left: 20px;
+  }
+
+
+
+    /* RESPONSIVE DESIGN */
+  
+/* XS */
+@media screen and (min-width: 400px) and (max-width: 639px) {
+    h1 {
+      width: 300px;
+    }
+  
+    .nav_links_wrapper {
+      width: 300px;
+    }
+    
+    .nav_links ul {
+      width: 300px;
+    }
+  
+    .homepage {
+      flex-wrap: wrap;
+    }
+    
+    .heropage_container {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    h2 {
+      text-align: center;
+    }
+  
+    .paragraph_session {
+      width: 100%;
+      max-width: 600px;
+    }
+  
+    .pic_session {
+      width: 100%;
+      max-width: 500px;
+    }
+    
+    .pic_session img {
+      width: 100%;
+      height: auto;
+    }
+    .paragraph_session button {
+      width: 370px;
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  
+  /* SM */
+  @media screen and (min-width: 640px) and (max-width: 767px) {
+    h1 {
+      width: 350px;
+    }
+  
+    .nav_links_wrapper {
+      width: 350px;
+    }
+    
+    .nav_links ul {
+      width: 350px;
+    }
+  
+    h2 {
+      text-align: center;
+    }
+  
+    .heropage_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .paragraph_session {
+      width: 100%;
+      max-width: 500px;
+    }
+  
+    .pic_session {
+      width: 100%;
+      max-width: 500px;
+    }
+    
+    .pic_session img {
+      width: 100%;
+      height: auto;
+    }
+    .paragraph_session button {
+      width: 300px;
+    }
+  }
+  
+  /* MD */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+      width: 500px;
+    }
+  
+    .nav_links_wrapper {
+      width: 600px;
+    }
+    
+    .nav_links ul {
+      width: 600px;
+    }
+    
+    h2 {
+      text-align: center;
+    }
+   
+    .heropage_container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .paragraph_session {
+      width: 48%;
+    }
+  
+    .pic_session {
+      width: 48%;
+    }
+    
+    .pic_session img {
+      width: 100%;
+      height: auto;
+    }
+    .paragraph_session button {
+      width: 400px;
+    }
+  }
+  
+  /* LG */
+  @media screen and (min-width: 1024px) {
+    h1 {
+      width: 600px;
+    }
+  
+    .nav_links_wrapper {
+      width: 600px;
+    }
+    
+    .nav_links ul {
+      width: 600px;
+    }
+  
+    h2 {
+      text-align: center;
+    }
+    
+    .heropage_container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .paragraph_session {
+      width: 48%;
+    }
+  
+    .pic_session {
+      width: 48%;
+    }
+    
+    .pic_session img {
+      width: 100%;
+      height: auto;
+    }
+    .paragraph_session button {
+      width: 400px;
+    }
+  }

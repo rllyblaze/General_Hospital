@@ -1,0 +1,180 @@
+/* xs */
+@media screen and (min-width: 0){
+    .navbar .links,
+    .navbar .apt_btn {
+        display:none;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+
+    .hero_text .hero_bottom{
+        width: 500px;
+        display: block;
+        margin: 0;
+    }
+
+    .hero_section .hero_bottom{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+    
+      
+
+
+/* sm */
+@media screen and (min-width: 576px){
+    .navbar .links,
+    .navbar .apt_btn {
+        display:none;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+
+    .hero_text .hero_bottom {
+        display: flex;
+    }
+
+
+
+
+
+}
+
+/* medium */
+@media screen and (min-width: 768px){
+    .navbar .links,
+    .navbar .apt_btn {
+        display:none;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+
+
+
+
+
+
+    .hero_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: start;
+        align-items: flex-start;
+    }
+
+
+    .hero_text h2 {
+        width: 700px;
+        font-size: 50px;
+        align-items: left;
+
+    }
+
+    .hero_text button {
+        margin: 30px 50px 100px 0px;
+    }
+
+
+    .hero_section .hero_bottom{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin: 10px 10px;
+        padding: 5px;
+    }
+
+    
+}
+
+/* large */
+@media screen and (min-width: 992px){
+    .navbar .links,
+    .navbar .apt_btn {
+        display: flex;
+    } 
+
+    .navbar .toggle_btn{
+        display: none;
+    }
+
+    .dropdown_menu {
+        display: none;
+    } 
+
+    .hero_section {
+        height: 700px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding-top: 70px;
+    }
+
+
+
+    .hero_text h2 {
+        width: 800px;
+        font-size: 60px;
+    }
+
+    hr {
+        margin-top: 70px;
+    }
+
+    .hero_section .hero_bottom {
+        margin: 20px;
+    }
+
+}
+
+/* xl */
+@media screen and (min-width: 1200px){
+    .hero_text h2 {
+        width: 800px;
+        font-size: 62px;
+    }
+
+
+
+    .hero_section {
+        height: 760px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    hr {
+        margin-top: 100px;
+
+    }
+
+    .hero_section .hero_bottom {
+        margin: 40px;
+    }
+
+
+}
+
+/* xxl */
+@media screen and (min-width: 1400px) {
+
+}
