@@ -1,5 +1,5 @@
 /* xs */
-@media screen and (min-width: 0){
+@media screen and (min-width: 389px){
     .navbar .links,
     .navbar .apt_btn {
         display:none;
