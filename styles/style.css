@@ -326,3 +326,52 @@ hr {
 
 }
 
+.about_section {
+    
+}
+
+.about_container {
+    background-color: rgba(0, 109, 164, 0.1);
+    padding: 20px;
+}
+
+.about_title{
+    margin-top: 50px;
+    text-align: center;
+}
+.about_description{
+    margin: 5px 10px 20px 10px;
+    text-align: center;
+}
+
+.about_wrapper {
+    /* border: 1px solid red; */
+}
+.about_pic{
+    margin: 10px;
+    border-radius: 5px;
+    width: 350px;
+}
+.about_subtitle{
+    margin: 10px;
+    line-height: 1.7;
+}
+.about_text1{
+    margin: 10px;
+    color:var(--clr--grey);
+    line-height: 1.5;
+    font-size: 14px;
+}
+.about_text2{
+    margin: 10px 10px 25px 10px;
+    color:var(--clr--grey);
+    line-height: 1.5;
+    font-size: 14px;
+
+}
+.about_read_more {
+    padding: 10px 20px;
+    border: 2px solid var(--clr--blue);
+    margin: 25px 10px 15px 10px;
+    margin-bottom: 60px;
+}  
