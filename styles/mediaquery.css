@@ -1,5 +1,5 @@
 /* xs */
-@media screen and (min-width: 389px){
+@media screen and (min-width: 0px){
     .navbar .links,
     .navbar .apt_btn {
         display:none;
@@ -14,7 +14,7 @@
     }
 
     .hero_text .hero_bottom{
-        width: 500px;
+        width: 200px;
         display: block;
         margin: 0;
     }
@@ -71,17 +71,13 @@
         display: block;
     }
 
-
-
-
-
-
     .hero_text{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         text-align: start;
         align-items: flex-start;
+        padding: 0px 50px;
     }
 
 
@@ -93,7 +89,7 @@
     }
 
     .hero_text button {
-        margin: 30px 50px 100px 0px;
+        margin: 90px 0;
     }
 
 
@@ -106,6 +102,7 @@
         margin: 10px 10px;
         padding: 5px;
     }
+
 
     
 
@@ -149,15 +146,16 @@
     }
 
     .container_wrapper {
-        border: 1px solid red;
         display: flex;
         justify-content: space-between;
         width: 100%;
+        padding: 100px 25px;
     }
 
     .container1, .container2, .container3 {
         width: calc((100% - 40px) / 3);
         box-sizing: border-box;
+
     }
 
 }
