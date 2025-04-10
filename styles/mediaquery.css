@@ -108,6 +108,8 @@
     }
 
     
+
+    
 }
 
 /* large */
@@ -144,6 +146,18 @@
 
     .hero_section .hero_bottom {
         margin: 20px;
+    }
+
+    .container_wrapper {
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .container1, .container2, .container3 {
+        width: calc((100% - 40px) / 3);
+        box-sizing: border-box;
     }
 
 }
